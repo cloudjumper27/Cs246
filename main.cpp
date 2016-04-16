@@ -23,6 +23,7 @@ int main()
         cin>>n;
     }
        int *p1;
+	int p2=0;
     p1 = new int[n];
     fill_array(p1, n);
        for(int i=0;i<n;i++)
